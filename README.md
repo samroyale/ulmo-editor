@@ -1,7 +1,7 @@
 # Map Editor
 ### A map editor for Ulmo's Adventure written in Java
 
-You'll need to have Java + Gradle installed (I'm using Java 1.7 + Gradle 1.12)
+You'll need to have Java + Gradle installed (tested with Java 1.7 + Gradle 1.12)
 
 From the project root:
 ```
