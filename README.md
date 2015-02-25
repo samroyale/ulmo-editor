@@ -3,24 +3,25 @@
 
 You'll need to have Java + Gradle installed (tested with Java 1.7 + Gradle 1.12)
 
-From the project root:
+All commands should be executed from the project root.
+
+To build the project:
 ```
 $ gradle clean build
 ```
 
-If successful, that will create *editor-1.0.jar* under *build/libs*
+If successful, this will create *editor-1.0.jar* under *build/libs*
 
 Before you run it, you'll need to edit the two properties files in *src/test/resources*:
-* *maps.properties* <- this needs to point to your maps folder in the game project
-* *tiles.properties* <- this needs to point to your tiles folder in the game project
+* *maps.properties* <- this needs to point at the *maps* folder in your *ulmo-game* project
+* *tiles.properties* <- this needs to point at the *tiles* folder in your *ulmo-game* project
 
 To run the editor:
 ```
 $ ./mac-run.sh OR $ ./linux-run.sh
 ```
 
-
-To import into Eclipse:
+To create Eclipse artefacts:
 ```
 $ gradle cleanEclipse eclipse
 ```
