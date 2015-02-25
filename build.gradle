@@ -4,6 +4,7 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.5
 version = '1.0'
 jar {
+    baseName = 'editor'
     manifest {
         attributes 'Implementation-Title': 'RPG Editor', 'Implementation-Version': version
     }
