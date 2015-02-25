@@ -10,7 +10,7 @@ $ gradle clean build
 
 If successful, that will create *editor-1.0.jar* under *build/libs*
 
-Before you run it, you'll need to edit the two properties files in src/test/resources:
+Before you run it, you'll need to edit the two properties files in *src/test/resources*:
 * *maps.properties* <- this needs to point to your maps folder in the game project
 * *tiles.properties* <- this needs to point to your tiles folder in the game project
 
