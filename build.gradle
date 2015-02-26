@@ -2,9 +2,9 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 sourceCompatibility = 1.5
-version = '1.0'
+version = '1.1'
 jar {
-    baseName = 'editor'
+    baseName = 'ulmo-editor'
     manifest {
         attributes 'Implementation-Title': 'RPG Editor', 'Implementation-Version': version
     }

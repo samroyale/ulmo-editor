@@ -26,7 +26,7 @@ import rpg.editor.core.WarningDialog;
 import rpg.editor.model.RpgMap;
 import rpg.editor.model.TileSet;
 
-public class RpgEditor {
+public class Main {
 	
 	private static final RGB TAB_COLOUR = new RGB(142, 175, 230);
 	
@@ -39,7 +39,7 @@ public class RpgEditor {
 	
 	private RecentTiles recentTiles;
 	
-	private RpgEditor() {
+	private Main() {
 		shell.setLayout(new GridLayout());
 		shell.setText("RPG Editor");
 
@@ -238,7 +238,7 @@ public class RpgEditor {
 	}
 
 	public static void main(String[] args) {
-		RpgEditor editorApp = new RpgEditor();
+		Main editorApp = new Main();
 		editorApp.run(1000, 600);
 	}
 }

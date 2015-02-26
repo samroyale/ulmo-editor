@@ -10,11 +10,13 @@ To build the project:
 $ gradle clean build
 ```
 
-If successful, this will create *editor-1.0.jar* under *build/libs*
+If successful, this will create *ulmo-editor-1.1.jar* under *build/libs*
 
 Before you run it, you'll need to edit the two properties files in *src/test/resources*:
 * *maps.properties* <- this needs to point at the *maps* folder in your *ulmo-game* project
 * *tiles.properties* <- this needs to point at the *tiles* folder in your *ulmo-game* project
+
+Also tweak *gradle.properties* so it supports your local dev environment.
 
 To run the editor:
 ```
