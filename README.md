@@ -1,5 +1,5 @@
 # Map Editor
-### A map editor for Ulmo's Adventure implemented in Java
+### A map editor for Ulmo's Adventure implemented in Java SWT
 
 You'll need to have Java + Gradle installed (tested with Java 1.7 + Gradle 1.12)
 
